@@ -1,2 +1,2 @@
-# resume
-This is me
+# Resume
+About me

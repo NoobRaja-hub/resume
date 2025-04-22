@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aadit Manghnani's Resume</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Aadit Manghnani</h1>
+        <h2>BBA Student | Digital Branding and Entrepreneurship</h2>
+        <p>Location: Mumbai, India</p>
+        <a href="https://in.linkedin.com/in/aadit-manghnani-98159b282" target="_blank">LinkedIn Profile</a>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#interests">Interests</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <h3>About Me</h3>
+        <p>I’m Aadit Manghnani, a first-year BBA student at NMIMS Mumbai, pursuing an online BBA degree in Digital Branding and Entrepreneurship from IIM Bangalore. My educational background and innate curiosity have made me eager to discover new business management opportunities.</p>
+        <p>Several experiences have shaped my personality and aspirations, including my aunt's cancer treatment in Mumbai and witnessing my father's journey in starting a textile manufacturing company.</p>
+    </section>
+
+    <section id="education">
+        <h3>Education</h3>
+        <ul>
+            <li>BBA, NMIMS Mumbai (2024 - Present)</li>
+            <li>Online BBA in Digital Branding and Entrepreneurship, IIM Bangalore (2024 - Present)</li>
+            <li>Shortlisted for the Integrated Program in Management (IPM), IIM Rohtak</li>
+        </ul>
+    </section>
+
+    <section id="experience">
+        <h3>Experience</h3>
+        <p>My experiences have taught me emotional maturity, empathy, and the importance of hard work. I have developed skills in strategic thinking and resource management through personal and family experiences.</p>
+    </section>
+
+    <section id="interests">
+        <h3>Interests</h3>
+        <p>I am interested in business case studies, geopolitics, geoeconomics, and stock markets. I enjoy reading books that enrich my understanding of human motivations and leadership challenges.</p>
+    </section>
+
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+</html>
